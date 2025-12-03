@@ -136,7 +136,7 @@ h6 {
 }
 
 main {
-    width: 95%;
+    width: 343px;
     gap: 32px;
     margin-top: 100px;
 }
@@ -148,6 +148,7 @@ main {
 
 .mainbox2txt {
     width: 343px;
+    padding-left:16px;
 }
 
 .mainbox1txt {
