@@ -1,0 +1,58 @@
+@media(width>768px) {
+
+    .cont,
+    header,
+    main,
+    footer {
+        width: 768px;
+    }
+
+    header {
+        background-image: url(./assets/mapppppppppp2222222222222222222222.png);
+    }
+
+    .pin {
+        top: 168px;
+        left: 351px;
+    }
+
+    main {
+        height: 411px;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding-left: 40px;
+    }
+
+    .txtbox {
+        width: 398px;
+        height: 251px;
+        margin-top: 40px;
+    }
+
+    h1 {
+        width: 223px;
+
+    }
+
+    footer {
+        height: 208px;
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 138px;
+    }
+
+    .lastps {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 64px;
+    }
+
+    .p5 {
+        margin: 0;
+        width: 276px;
+    }
+
+    .iconbox {
+        margin: 0;
+    }
+}

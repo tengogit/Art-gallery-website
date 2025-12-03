@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont {
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    height: 100vh;
+    align-items: center;
+    font-family: "Big Shoulders", sans-serif;
+    overflow-x: hidden;
+    /* font-family: "Outfit", sans-serif; */
+
+}
+
+header {
+    width: 375px;
+    height: 550px;
+    background-image: url(./assets/Map1.svg);
+}
+
+button {
+    width: 260px;
+    height: 72px;
+    border: none;
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.btn1,
+.btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    width: 204px;
+    height: 100%;
+    background-color: black;
+}
+
+.btn2 {
+    background-color: #D5966C;
+    width: 56px;
+    height: 100%;
+    order: -1;
+}
+
+a {
+    text-decoration: none;
+}
+
+h6 {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: "Big Shoulders", sans-serif;
+    line-height: 100%;
+    letter-spacing: 3.64px;
+}
+
+.pin {
+    position: relative;
+    top: 150px;
+    left: 155px;
+}
+
+main {
+    width: 375px;
+    height: 550px;
+    background-color: #151515;
+    padding-left: 16px;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+    margin-top: 80px;
+}
+
+.txtbox {
+    width: 343px;
+    height: 276px;
+}
+
+h2 {
+    color: #D5966C;
+    font-size: 36px;
+    margin-top: 48px;
+}
+
+h3,
+h4 {
+    margin-top: 20px;
+}
+
+h3,
+h4 {
+    font-size: 18px;
+    line-height: 140%;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-weight: 300;
+
+}
+
+footer {
+    width: 375px;
+    height: 336px;
+    background-color: #D5966C;
+    padding: 48px 16px;
+
+}
+
+p {
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    font-size: 19px;
+    line-height: 140%;
+    font-weight: 300;
+    width: 343px;
+
+}
+
+.p4 {
+    color: #151515;
+    width: auto;
+    height: auto;
+    font-weight: 900;
+    line-height: 100%;
+}
+
+.p5 {
+    color: #151515;
+    margin-top: 40px;
+    width: 295px;
+    font-size: 18px;
+}
+
+.iconbox {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 20px;
+    margin-top: 40px;
+    justify-content: space-between;
+}

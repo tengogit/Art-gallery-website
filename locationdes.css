@@ -1,0 +1,93 @@
+@media(width>1440px) {
+
+    .cont,
+    header,
+    main,
+    footer {
+        width: 1440px;
+    }
+
+    header {
+        background-image: url(./assets/Map3.png);
+    }
+
+    .pin {
+        top: 168px;
+        left: 687px;
+    }
+
+    footer {
+        padding: 80px 165px;
+    }
+
+    .p5 {
+        width: 430px;
+    }
+
+    button {
+        pointer-events: all;
+        cursor: pointer;
+    }
+
+    button:hover .btn1 {
+        background-color: #D5966C;
+    }
+
+    button:hover .btn2 {
+
+        background-color: #151515;
+    }
+
+    button:focus .btn1 {
+        background-color: #151515;
+    }
+
+    button:focus .btn2 {
+        background-color: #D5966C;
+    }
+
+    button:focus {
+        outline: 6px solid #D5966C;
+        outline-offset: 4px;
+    }
+
+    .icons:hover {
+        scale: 1.5;
+    }
+
+    a:focus {
+        outline: 4px solid #D5966C;
+        outline-offset: 4px;
+    }
+
+    button:hover .btn1 {
+        background-color: #D5966C;
+    }
+
+    button:hover .btn2 {
+
+        background-color: #151515;
+    }
+
+    button:focus .btn1 {
+        background-color: #151515;
+    }
+
+    button:focus .btn2 {
+        background-color: #D5966C;
+    }
+
+    button:focus {
+        outline: 6px solid #D5966C;
+        outline-offset: 4px;
+    }
+
+    .icons:hover {
+        scale: 1.5;
+    }
+
+    a:focus {
+        outline: 4px solid #151515;
+        outline-offset: 4px;
+    }
+}
