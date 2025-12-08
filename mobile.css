@@ -29,6 +29,9 @@ body {
 div{
     max-width:100%
 }
+img{
+    max-width:100%
+}
 
 .auto {
     display: flex;
