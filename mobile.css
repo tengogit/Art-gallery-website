@@ -29,10 +29,7 @@ body {
 div{
     max-width:100%;
 }
-img{
-    width:100%;
-    display:block;
-}
+
 .auto {
     display: flex;
     flex-direction: column;
