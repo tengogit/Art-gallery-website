@@ -26,9 +26,6 @@ body {
     height: auto;
     gap: 100px;
 }
-div{
-    max-width:100%;
-}
 
 .auto {
     display: flex;
